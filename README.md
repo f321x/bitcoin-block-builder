@@ -11,7 +11,7 @@ The program is structured in three main modules and a directory of test scripts:
 3. Block construction
 4. Test scripts
 
-I decided to implement the assignment in the Rust programming language because of its known benefits and usage in many bitcoin open source projects, and also because i wanted to learn the language.
+I decided to implement the exercise in the Rust programming language because of its known benefits and usage in many bitcoin open source projects, and also because i wanted to learn the language.
 
 ### <u>1. Parsing</u>
 
