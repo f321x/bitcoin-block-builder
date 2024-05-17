@@ -60,7 +60,7 @@ fn main() {
     let block: Block = mine_block(&mut valid_transactions);
 
     // writes blockfile to output.txt according to exercise specification
-    output_block(&block, "../../output.txt");
+    output_block(&block, "../output.txt");
     println!(
         "\nDone. Number of mined transactions: {}\n",
         &block.txids_hex.len()

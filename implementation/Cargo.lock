@@ -30,6 +30,23 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9d297deb1925b89f2ccc13d7635fa0714f12c87adce1c75356b39ca9b7178567"
 
 [[package]]
+name = "bitcoin-block-builder"
+version = "0.1.0"
+dependencies = [
+ "byteorder",
+ "hex",
+ "hex-literal",
+ "num-bigint",
+ "num-traits",
+ "ripemd",
+ "secp256k1",
+ "serde",
+ "serde_json",
+ "serde_with",
+ "sha2",
+]
+
+[[package]]
 name = "block-buffer"
 version = "0.10.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -73,23 +90,6 @@ dependencies = [
  "num-traits",
  "serde",
  "windows-targets",
-]
-
-[[package]]
-name = "code-challenge-f321x"
-version = "0.1.0"
-dependencies = [
- "byteorder",
- "hex",
- "hex-literal",
- "num-bigint",
- "num-traits",
- "ripemd",
- "secp256k1",
- "serde",
- "serde_json",
- "serde_with",
- "sha2",
 ]
 
 [[package]]
