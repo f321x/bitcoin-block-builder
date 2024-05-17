@@ -552,9 +552,6 @@ Currently there is a small variance in block creation even tough the input data 
 #### Combine functions
 Even tough i value simple code and avoid duplicate code there is some code that could be combined to make it easier to read and simpler. The P2WPKH script verification could for example be refactored to use the script verification module which would just need a new function to assemble a TX commitment according to BIP143 in order to verify P2WPKH inputs.
 
-#### Making it open source
-Open sourcing the program could attract contributors to improve the code with their knowledge and enable them to utilize the code in their software providing more value to more users.
-
 ### <u>Resources</u>
 
 I used a lot of ressources to understand the concepts and how to implement them. These are the ressources that helped me the most:
